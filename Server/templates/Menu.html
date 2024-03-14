@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorHEX - Игровое меню</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 32px;
+            color: #333;
+        }
+        input[type="text"] {
+            width: 200px;
+            padding: 10px;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+        .players-info {
+            font-size: 20px;
+            color: #666;
+        }
+        .btn-start {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Стилизация контейнера */
+        .checkbox-container {
+          display: inline-block;
+          vertical-align: middle;
+          /*border: 2px solid #555;*/
+          padding: 5px; /* Отступ вокруг содержимого */
+          border-radius: 5%;
+          /*background-color: #e4e4e4;*/
+          text-align: right;
+          font-weight: bold;
+        }
+
+        /* Скрытие оригинального чекбокса */
+        .checkbox-container input {
+          display: none;
+        }
+
+        /* Стилизация фонового круга */
+        .checkbox-container .checkmark {
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          border: 2px solid #555;
+          cursor: pointer;
+          position: relative;
+          display: inline-block;
+          top: 50%;
+          transform: translate(0%, 45%);
+        }
+
+        /* Стилизация отметки (галочки) */
+        .checkbox-container .checkmark:after {
+            content: "";
+            display: none;
+            width: 20px;
+            height: 20px;
+            background-color: #318834;
+            border-radius: 50%;
+            position: absolute; /* Добавлено абсолютное позиционирование */
+            top: 50%; /* Позиционирование по вертикали */
+            left: 50%; /* Позиционирование по горизонтали */
+            transform: translate(-50%, -50%); /* Центрирование */
+        }
+
+        /* Отображение отметки, если чекбокс отмечен */
+        .checkbox-container input:checked + .checkmark:after {
+            display: inline-block;
+        }
+    </style>
+    <script src="{{ url_for('static', filename='Menu_script.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+let counter = 400
+var intervalId
+let url = "http://127.0.0.1:5000"
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>ColorHEX - Игровое меню</h1>
+        <input type="text" id="playerName" placeholder="Введите ваше имя">
+        <div id="players" class="players-info">Current players 0/2</div>
+        <button onclick="startGame()" class="btn-start">Начать игру</button>
+        </br>
+        <label class="checkbox-container">
+            <input type="checkbox" id="myCheckbox">
+            <span class="checkmark"></span> 
+            <a>Сыграть против </br> компьютера?</a>
+          </label>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гексоганальная игра</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='GUI.css') }}">
+    <style>
+    </style>
+</head>
+<body>
+    <div id="overlay">
+        <!-- Content inside the overlay window -->
+    </div>
+    <div class="turn_overlay" id="turn_overlay">
+        <!-- Content inside the overlay window -->
+        <div class="text" id="turn_text"> Грузим ход... </div>
+    </div>
+    <div class="progress-bars-container">
+        <div class="progress-bar">
+            <div class="progress  progress1" style="height: 50%;"></div>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress  progress2" style="height: 70%;"></div>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress  progress3" style="height: 30%;"></div>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress  progress4" style="height: 85%;"></div>
+        </div>
+    </div>
+    <canvas id="hexCanvas"></canvas>
+    <button onclick='showPopup()' class="floating-button">Нажми меня</button>
+
+    <!-- Подключение внешних JavaScript файлов -->
+    <script src="{{ url_for('static', filename='requests.js') }}"></script>
+    <script src="{{ url_for('static', filename='popups.js') }}"></script>
+    <script src="{{ url_for('static', filename='GUI_script.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+
+    // Получаем информацию из заголовка (имя игрока)
+var queryParams = window.location.search;
+var PlayerName = parseQueryParams(queryParams)["name"]
+
+
+// Получаем элемент Canvas и его контекст
+var canvas = document.getElementById('hexCanvas');
+var ctx = canvas.getContext('2d');
+
+// Размеры поля и гексагона
+var numRows = 21;
+var numCols = 47;
+var hexSize = 20;
+
+var cameraX = 0; // Позиция "камеры" по X
+var cameraY = 0; // Позиция "камеры" по Y
+
+var feild_size = undefined;
+
+let url = "http://127.0.0.1:5000"
+
+var colors = [];
+
+// Подключение по веб сокету
+var socket = io.connect(url);
+
+socket.on('connect', function() {
+    console.log('Connected to server');
+});
+
+socket.on('GameOver', function(st) {
+    if(st){
+        showPopup("Победил игрок " + st,'toast-big', true)
+    }
+});
+
+//Запросить цвета
+colorask(url)
+    .then(data => {
+        colors = data
+       drawHexagonField()
+    })
+    .catch(error => {
+        showError(error)
+    });
+
+
+var canvas = document.getElementById('hexCanvas');
+
+
+canvas.addEventListener('wheel', function(event) {
+    if (event.deltaY > 0) {
+        if (hexSize > 1){
+            hexSize = hexSize - 1
+            drawHexagonField();
+        }
+    } else if (event.deltaY < 0) {
+        hexSize = hexSize + 1
+        drawHexagonField();
+    }
+});
+
+// Функция для обновления цвета при нажатии мыши
+canvas.addEventListener('mousedown', function(event) {
+    var rect = canvas.getBoundingClientRect();
+    var mouseX = event.clientX - rect.left + cameraX + hexSize * Math.sqrt(3) / 2;
+    var mouseY = event.clientY - rect.top + cameraY + hexSize * Math.sqrt(3) / 2;
+
+    // Определяем индексы клетки по координатам мыши
+    var col = Math.floor(mouseX / (hexSize * 1.5));
+    var row = Math.floor((mouseY - (col % 2) * hexSize * Math.sqrt(3) / 2) / (hexSize * Math.sqrt(3)));
+
+    // Обновляем цвет клетки
+    if (row >= 0 && row < numRows && col >= 0 && col < numCols) {
+        cell_color = colors[row][col];
+
+        if(cell_color == '#000000' || cell_color == undefined){
+            showPopup("Этот цвет выбирать нельзя")
+            return
+        }
+
+        sendColor(url, cell_color, PlayerName)
+
+        setTimeout(function() {
+            colorask(url)
+            .then(data => {
+                colors = data
+                drawHexagonField()
+            })
+            .catch(error => {
+                showError(error)
+            });
+        }, 500);
+        
+    }
+});
+
+canvas.addEventListener('mousemove', onMouseMove);
+
+// Инициализация поля при изменения размера
+window.onresize = drawHexagonField();
+
+document.getElementById("turn_overlay").addEventListener("mouseenter", function() {
+    this.classList.add("hidden");
+    setTimeout(function() {
+        document.getElementById("turn_overlay").classList.remove("hidden");
+    }, 3000);
+});
+
+        // Обновление Данных
+        setInterval(function() {
+    refreshTurn()
+    colorask(url)
+        .then(data => {
+            colors = data
+            drawHexagonField()
+        })
+        .catch(error => {
+            showError(error)
+        });
+}, 1500);
+    </script>
+</body>
+</html>

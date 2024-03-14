@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: requests.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: requests.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * This function sends the selected color to the server via a POST request
+ * to update the game state.
+ * &lt;br>Comlexity is: O(1) - Send Message to the server
+ * @brief Sends the selected color to the server.
+ *
+ * @param {str} url The URL of the server to send the color data.
+ * @param {str} color The color selected by the player.
+ * @param {str} PlayerName The name of the player sending the color.
+ * @return void
+ */
+
+function sendColor (url, color, PlayerName) {
+  // Создаем новый объект XMLHttpRequest
+  const xhr = new XMLHttpRequest()
+
+  // Определяем обработчик события загрузки
+  xhr.onload = function () {
+    // Проверяем, был ли запрос успешным (код 200)
+    if (xhr.status === 200) {
+      // Получаем ответ от сервера
+      console.log('Отправка цветов на сервер успешна')
+    } else {
+      // Если запрос не успешен, выводим сообщение об ошибке
+      console.error('Ошибка при отправке запроса: ' + xhr.status)
+    }
+  }
+
+  // Формируем запрос POST на URL сервера для обновления игрового состояния
+  xhr.open('POST', url + '/turn', true)
+
+  // Устанавливаем заголовок Content-Type для указания типа передаваемых данных (JSON)
+  xhr.setRequestHeader('Content-Type', 'application/json')
+
+  // Преобразуем данные (выбранный цвет) в формат JSON и отправляем на сервер
+  xhr.send(JSON.stringify({ Player: PlayerName, Color: color }))
+}
+// let Plname = "bob"
+// let url = "http://127.0.0.1:5000"
+
+/**
+* This function asynchronously sends a GET request to the server to
+* retrieve the color grid data. It returns a promise that resolves with
+* the received color grid data.
+* &lt;br>Comlexity is: O(1) - Send Message to the server and waiting for response
+* @brief Asynchronously requests the color grid data from the server.
+*
+* @param {str} url The URL of the server to request the color grid data.
+* @return Promise that resolves with the color grid data.
+*/
+
+async function colorask (url) {
+  return new Promise((resolve, reject) => {
+    // Создаем новый объект XMLHttpRequest
+    const xhr = new XMLHttpRequest()
+
+    // Определяем обработчик события загрузки
+    xhr.onload = function () {
+      // Проверяем, был ли запрос успешным (код 200)
+      if (xhr.status === 200) {
+        // Получаем ответ от сервера
+        const colors = []
+
+        const data = JSON.parse(xhr.responseText)
+
+        for (let i = 0; i &lt; data.length; i++) {
+          colors[i] = []
+          for (let j = 0; j &lt; data[i].length; j++) {
+            colors[i][j] = data[i][j].color
+          }
+        }
+        resolve(colors) // Резолвим промис с полученными данными
+      } else {
+        // Если запрос не успешен, выводим сообщение об ошибке
+        const error = 'Ошибка при отправке запроса: ' + xhr.status
+        reject(error)
+      }
+    }
+
+    // Формируем запрос GET на URL сервера для получения данных
+    xhr.open('GET', url + '/send_grid', true)
+
+    xhr.setRequestHeader('Content-Type', 'application/json')
+
+    // Отправляем запрос на сервер
+    xhr.send({ success: true })
+  })
+}
+
+/**
+ * This function parses the query parameters from a given query string and returns
+ * an object containing key-value pairs representing the parameters.
+ * &lt;br>Comlexity is: O(1) - Simple output
+ * 
+ * @brief Parses the query parameters from a query to string.
+ *
+ * @param {str} queryString The query string to parse.
+ * @return Object An object containing key-value pairs representing the parsed query parameters.
+ */
+
+function parseQueryParams (queryString) {
+  const queryParams = {}
+  // Удаляем знак вопроса из строки параметров запроса, если он присутствует
+  if (queryString.charAt(0) === '?') {
+    queryString = queryString.substring(1)
+  }
+  // Разбиваем строку на части по символу "&amp;", который разделяет пары ключ-значение
+  const pairs = queryString.split('&amp;')
+  // Обрабатываем каждую пару
+  pairs.forEach(function (pair) {
+    const keyValue = pair.split('=')
+    const key = decodeURIComponent(keyValue[0]) // декодируем ключ
+    const value = decodeURIComponent(keyValue[1]) // декодируем значение
+    // Если ключ уже существует, превращаем его в массив для хранения нескольких значений
+    if (queryParams[key]) {
+      if (!Array.isArray(queryParams[key])) {
+        queryParams[key] = [queryParams[key]]
+      }
+      queryParams[key].push(value)
+    } else {
+      queryParams[key] = value
+    }
+  })
+  return queryParams
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#calculateFieldSize">calculateFieldSize</a></li><li><a href="global.html#colorask">colorask</a></li><li><a href="global.html#drawHex">drawHex</a></li><li><a href="global.html#drawHexGroup">drawHexGroup</a></li><li><a href="global.html#drawHexagonField">drawHexagonField</a></li><li><a href="global.html#gamestart">gamestart</a></li><li><a href="global.html#onMouseMove">onMouseMove</a></li><li><a href="global.html#parseQueryParams">parseQueryParams</a></li><li><a href="global.html#refreshTurn">refreshTurn</a></li><li><a href="global.html#sendColor">sendColor</a></li><li><a href="global.html#sendMessage">sendMessage</a></li><li><a href="global.html#send_and_wait">send_and_wait</a></li><li><a href="global.html#showPopup">showPopup</a></li><li><a href="global.html#startGame">startGame</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Mon Mar 11 2024 18:27:01 GMT+0300 (Москва, стандартное время)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

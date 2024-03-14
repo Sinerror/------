@@ -1,0 +1,156 @@
+\doxysection{Players.\+Player Class Reference}
+\hypertarget{class_players_1_1_player}{}\label{class_players_1_1_player}\index{Players.Player@{Players.Player}}
+Inheritance diagram for Players.\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_players_1_1_player}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_players_1_1_player_a854a145862e614e9291280b75e1d3416}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, name, color, initial\+\_\+position, grid\+\_\+json)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_ae61af707a8aa14bcd21f40254040bf5e}{check\+\_\+possible\+\_\+moves}} (self, grid\+\_\+json, cells)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_a226a05b25654f556697960ccbd62a46b}{choose\+\_\+color}} (self, color, grid\+\_\+json)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_ab3c725666a2ba9a9fe5ef176f5fe36be}{get\+\_\+neighbors}} (self, grid, cube\+\_\+coord)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_a3a8b84ceb49a951fbded37fa44d5fa5e}{cube\+\_\+to\+\_\+offset}} (self, cube\+\_\+coord)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_a65fbb5559471112eddda55ef8a61964e}{offset\+\_\+to\+\_\+cube}} (self, offset\+\_\+coord)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_players_1_1_player_a54fce47e8df1bbacaaa36ed65119aa83}\label{class_players_1_1_player_a54fce47e8df1bbacaaa36ed65119aa83} 
+{\bfseries name}
+\item 
+\Hypertarget{class_players_1_1_player_ab9a726b61eded9e284c20b4d0227e729}\label{class_players_1_1_player_ab9a726b61eded9e284c20b4d0227e729} 
+{\bfseries color}
+\item 
+\Hypertarget{class_players_1_1_player_ac906fb684e17156869beca89cc243e65}\label{class_players_1_1_player_ac906fb684e17156869beca89cc243e65} 
+{\bfseries position}
+\item 
+\Hypertarget{class_players_1_1_player_af2fee8fc8d38149fe34635cbb4e76587}\label{class_players_1_1_player_af2fee8fc8d38149fe34635cbb4e76587} 
+{\bfseries cells}
+\item 
+\Hypertarget{class_players_1_1_player_aebff08a17f60157ee5480dfe52c04a75}\label{class_players_1_1_player_aebff08a17f60157ee5480dfe52c04a75} 
+{\bfseries possible\+\_\+moves}
+\item 
+\Hypertarget{class_players_1_1_player_a88cbe8c84ba641d09ae0331661a1ae3c}\label{class_players_1_1_player_a88cbe8c84ba641d09ae0331661a1ae3c} 
+{\bfseries Is\+Turn}
+\item 
+\Hypertarget{class_players_1_1_player_a693385375706828d731786ffccc7f01b}\label{class_players_1_1_player_a693385375706828d731786ffccc7f01b} 
+{\bfseries is\+\_\+\+AI}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Initializes a Player object.
+This class represents a player in the game.
+
+@param name The name of the player.
+@param color The color chosen by the player.
+@param initial_position The initial position of the player on the grid.
+@param grid_json The JSON representation of the game grid.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_players_1_1_player_a854a145862e614e9291280b75e1d3416}\label{class_players_1_1_player_a854a145862e614e9291280b75e1d3416} 
+\index{Players.Player@{Players.Player}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Players.Player@{Players.Player}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily Players.\+Player.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name,  }\item[{}]{color,  }\item[{}]{initial\+\_\+position,  }\item[{}]{grid\+\_\+json }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Checks the possible moves for the player.
+
+@complexity O(1) - Simple input
+
+This method checks the possible moves for the player based on the current grid state and player's cells.
+
+@param grid_json The JSON representation of the game grid.
+@param cells The cells currently occupied by the player.
+@return A set of possible moves for the player.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_players_1_1_player_ae61af707a8aa14bcd21f40254040bf5e}\label{class_players_1_1_player_ae61af707a8aa14bcd21f40254040bf5e} 
+\index{Players.Player@{Players.Player}!check\_possible\_moves@{check\_possible\_moves}}
+\index{check\_possible\_moves@{check\_possible\_moves}!Players.Player@{Players.Player}}
+\doxysubsubsection{\texorpdfstring{check\_possible\_moves()}{check\_possible\_moves()}}
+{\footnotesize\ttfamily Players.\+Player.\+check\+\_\+possible\+\_\+moves (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{grid\+\_\+json,  }\item[{}]{cells }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Allows the player to choose a color.
+This method allows the player to choose a color and updates the grid accordingly.
+
+@complexity O(2n) - cycles for i in cells and for j in moves are the same and have O(n)
+
+@param color The color chosen by the player.
+@param grid_json The JSON representation of the game grid.
+\end{DoxyVerb}
+ \Hypertarget{class_players_1_1_player_a226a05b25654f556697960ccbd62a46b}\label{class_players_1_1_player_a226a05b25654f556697960ccbd62a46b} 
+\index{Players.Player@{Players.Player}!choose\_color@{choose\_color}}
+\index{choose\_color@{choose\_color}!Players.Player@{Players.Player}}
+\doxysubsubsection{\texorpdfstring{choose\_color()}{choose\_color()}}
+{\footnotesize\ttfamily Players.\+Player.\+choose\+\_\+color (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{color,  }\item[{}]{grid\+\_\+json }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Allows the player to choose a color.
+This method allows the player to choose a color and updates the grid accordingly.
+
+@complexity O(n+ထ) - cycle for j in self.cells have O(n). Cycle while True have O(ထ) in worst scenario.
+
+@param color The color chosen by the player.
+@param grid_json The JSON representation of the game grid.
+\end{DoxyVerb}
+ \Hypertarget{class_players_1_1_player_a3a8b84ceb49a951fbded37fa44d5fa5e}\label{class_players_1_1_player_a3a8b84ceb49a951fbded37fa44d5fa5e} 
+\index{Players.Player@{Players.Player}!cube\_to\_offset@{cube\_to\_offset}}
+\index{cube\_to\_offset@{cube\_to\_offset}!Players.Player@{Players.Player}}
+\doxysubsubsection{\texorpdfstring{cube\_to\_offset()}{cube\_to\_offset()}}
+{\footnotesize\ttfamily Players.\+Player.\+cube\+\_\+to\+\_\+offset (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{cube\+\_\+coord }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Converts cube coordinates to offset coordinates.
+This function converts cube coordinates to offset coordinates.
+
+@complexity O(1) - Simple output
+
+@param cube_coord The cube coordinates to be converted.
+@return The corresponding offset coordinates.
+\end{DoxyVerb}
+ \Hypertarget{class_players_1_1_player_ab3c725666a2ba9a9fe5ef176f5fe36be}\label{class_players_1_1_player_ab3c725666a2ba9a9fe5ef176f5fe36be} 
+\index{Players.Player@{Players.Player}!get\_neighbors@{get\_neighbors}}
+\index{get\_neighbors@{get\_neighbors}!Players.Player@{Players.Player}}
+\doxysubsubsection{\texorpdfstring{get\_neighbors()}{get\_neighbors()}}
+{\footnotesize\ttfamily Players.\+Player.\+get\+\_\+neighbors (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{grid,  }\item[{}]{cube\+\_\+coord }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Retrieves the neighboring cells for a given cell in the grid.
+This function retrieves the neighboring cells for a given cell in the grid.
+
+@complexity O(n) - cycle for i in neighbors is O(n)
+
+@param grid The grid of the game.
+@param cube_coord The coordinates of the cell in cube representation.
+@return A list of neighboring cells.
+\end{DoxyVerb}
+ \Hypertarget{class_players_1_1_player_a65fbb5559471112eddda55ef8a61964e}\label{class_players_1_1_player_a65fbb5559471112eddda55ef8a61964e} 
+\index{Players.Player@{Players.Player}!offset\_to\_cube@{offset\_to\_cube}}
+\index{offset\_to\_cube@{offset\_to\_cube}!Players.Player@{Players.Player}}
+\doxysubsubsection{\texorpdfstring{offset\_to\_cube()}{offset\_to\_cube()}}
+{\footnotesize\ttfamily Players.\+Player.\+offset\+\_\+to\+\_\+cube (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{offset\+\_\+coord }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Converts offset coordinates to cube coordinates.
+This function converts offset coordinates to cube coordinates.
+
+@complexity O(1) - Simple output
+
+@param offset_coord The offset coordinates to be converted.
+@return The corresponding cube coordinates.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Players.\+py\end{DoxyCompactItemize}

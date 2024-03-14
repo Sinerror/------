@@ -1,0 +1,148 @@
+\doxysection{Mapgen.\+Hex\+Grid Class Reference}
+\hypertarget{class_mapgen_1_1_hex_grid}{}\label{class_mapgen_1_1_hex_grid}\index{Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mapgen_1_1_hex_grid_a54cb76ba9566c384cebb3abe41a15389}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, rows, cols)
+\item 
+\mbox{\hyperlink{class_mapgen_1_1_hex_grid_aa53b97788afce1d9452b4afbd0c92700}{generate\+\_\+hex\+\_\+grid}} (self)
+\item 
+\mbox{\hyperlink{class_mapgen_1_1_hex_grid_ad70a1f6f4b262fbd9f883deafc5b7930}{offset\+\_\+to\+\_\+cube}} (self, offset\+\_\+coord)
+\item 
+\mbox{\hyperlink{class_mapgen_1_1_hex_grid_a5c9c5098cbc69fd639b43586ef2ef8cd}{cube\+\_\+to\+\_\+offset}} (self, cube\+\_\+coord)
+\item 
+\mbox{\hyperlink{class_mapgen_1_1_hex_grid_ae5503b1c5b9686087aead90550880de0}{set\+\_\+value}} (self, cube\+\_\+coord, value)
+\item 
+\mbox{\hyperlink{class_mapgen_1_1_hex_grid_ad48958b00b6e5e9edc7647e2161f4691}{get\+\_\+value}} (self, cube\+\_\+coord)
+\item 
+\mbox{\hyperlink{class_mapgen_1_1_hex_grid_ab99dc6a50baccb005126dc5b49b6d10b}{set\+\_\+walls}} (self, wall\+\_\+positions)
+\item 
+\mbox{\hyperlink{class_mapgen_1_1_hex_grid_a3826085540c09c41253b8f61d13954c4}{json\+\_\+self}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_mapgen_1_1_hex_grid_adff452d3168055912e37e5896af413dc}\label{class_mapgen_1_1_hex_grid_adff452d3168055912e37e5896af413dc} 
+{\bfseries rows}
+\item 
+\Hypertarget{class_mapgen_1_1_hex_grid_aaa03fe0a2bcfe1d146c01f1f39905fa7}\label{class_mapgen_1_1_hex_grid_aaa03fe0a2bcfe1d146c01f1f39905fa7} 
+{\bfseries cols}
+\item 
+\Hypertarget{class_mapgen_1_1_hex_grid_ad7281f984fb0d0a753a8de879ebccf73}\label{class_mapgen_1_1_hex_grid_ad7281f984fb0d0a753a8de879ebccf73} 
+{\bfseries grid}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Represents a hexagonal grid.
+
+This class defines properties and methods for generating and manipulating a hexagonal grid.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_mapgen_1_1_hex_grid_a54cb76ba9566c384cebb3abe41a15389}\label{class_mapgen_1_1_hex_grid_a54cb76ba9566c384cebb3abe41a15389} 
+\index{Mapgen.HexGrid@{Mapgen.HexGrid}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily Mapgen.\+Hex\+Grid.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{rows,  }\item[{}]{cols }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Initializes a HexGrid object.
+
+@complexity O(1) - Simple input
+
+@param rows The number of rows in the grid.
+@param cols The number of columns in the grid.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_mapgen_1_1_hex_grid_a5c9c5098cbc69fd639b43586ef2ef8cd}\label{class_mapgen_1_1_hex_grid_a5c9c5098cbc69fd639b43586ef2ef8cd} 
+\index{Mapgen.HexGrid@{Mapgen.HexGrid}!cube\_to\_offset@{cube\_to\_offset}}
+\index{cube\_to\_offset@{cube\_to\_offset}!Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection{\texorpdfstring{cube\_to\_offset()}{cube\_to\_offset()}}
+{\footnotesize\ttfamily Mapgen.\+Hex\+Grid.\+cube\+\_\+to\+\_\+offset (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{cube\+\_\+coord }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Converts hexagonal coordinates to offset coordinates.
+
+@complexity O(1) - Simple output
+
+@param cube_coord The hexagonal coordinates to be converted.
+@return tuple The offset coordinates.
+\end{DoxyVerb}
+ \Hypertarget{class_mapgen_1_1_hex_grid_aa53b97788afce1d9452b4afbd0c92700}\label{class_mapgen_1_1_hex_grid_aa53b97788afce1d9452b4afbd0c92700} 
+\index{Mapgen.HexGrid@{Mapgen.HexGrid}!generate\_hex\_grid@{generate\_hex\_grid}}
+\index{generate\_hex\_grid@{generate\_hex\_grid}!Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection{\texorpdfstring{generate\_hex\_grid()}{generate\_hex\_grid()}}
+{\footnotesize\ttfamily Mapgen.\+Hex\+Grid.\+generate\+\_\+hex\+\_\+grid (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Generates a hexagonal grid.
+
+@complexity O(n1*n2) - cycles for i in range(self.rows) and for j in range(self.cols) have O(n1) and O(n2) respectively
+
+@return list A 2 dimensional matrix representing the hexagonal grid.
+\end{DoxyVerb}
+ \Hypertarget{class_mapgen_1_1_hex_grid_ad48958b00b6e5e9edc7647e2161f4691}\label{class_mapgen_1_1_hex_grid_ad48958b00b6e5e9edc7647e2161f4691} 
+\index{Mapgen.HexGrid@{Mapgen.HexGrid}!get\_value@{get\_value}}
+\index{get\_value@{get\_value}!Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection{\texorpdfstring{get\_value()}{get\_value()}}
+{\footnotesize\ttfamily Mapgen.\+Hex\+Grid.\+get\+\_\+value (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{cube\+\_\+coord }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Gets the value of a hexagon at the specified hexagonal coordinates.
+
+@param cube_coord The hexagonal coordinates of the hexagon.
+@return Hexagon The hexagon object.
+\end{DoxyVerb}
+ \Hypertarget{class_mapgen_1_1_hex_grid_a3826085540c09c41253b8f61d13954c4}\label{class_mapgen_1_1_hex_grid_a3826085540c09c41253b8f61d13954c4} 
+\index{Mapgen.HexGrid@{Mapgen.HexGrid}!json\_self@{json\_self}}
+\index{json\_self@{json\_self}!Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection{\texorpdfstring{json\_self()}{json\_self()}}
+{\footnotesize\ttfamily Mapgen.\+Hex\+Grid.\+json\+\_\+self (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Converts the HexGrid object to JSON format.
+
+@complexity O(n1*n2) - cycles for row in self.grid and for or col in row have O(n1) and O(n2) respectively
+
+@return str The JSON representation of the HexGrid object.
+\end{DoxyVerb}
+ \Hypertarget{class_mapgen_1_1_hex_grid_ad70a1f6f4b262fbd9f883deafc5b7930}\label{class_mapgen_1_1_hex_grid_ad70a1f6f4b262fbd9f883deafc5b7930} 
+\index{Mapgen.HexGrid@{Mapgen.HexGrid}!offset\_to\_cube@{offset\_to\_cube}}
+\index{offset\_to\_cube@{offset\_to\_cube}!Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection{\texorpdfstring{offset\_to\_cube()}{offset\_to\_cube()}}
+{\footnotesize\ttfamily Mapgen.\+Hex\+Grid.\+offset\+\_\+to\+\_\+cube (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{offset\+\_\+coord }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Converts offset coordinates to hexagonal coordinates.
+
+@complexity O(1) - Simple output
+ 
+@param offset_coord The offset coordinates to be converted.
+@return tuple The hexagonal coordinates.
+\end{DoxyVerb}
+ \Hypertarget{class_mapgen_1_1_hex_grid_ae5503b1c5b9686087aead90550880de0}\label{class_mapgen_1_1_hex_grid_ae5503b1c5b9686087aead90550880de0} 
+\index{Mapgen.HexGrid@{Mapgen.HexGrid}!set\_value@{set\_value}}
+\index{set\_value@{set\_value}!Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection{\texorpdfstring{set\_value()}{set\_value()}}
+{\footnotesize\ttfamily Mapgen.\+Hex\+Grid.\+set\+\_\+value (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{cube\+\_\+coord,  }\item[{}]{value }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Sets the value of a hexagon at the specified hexagonal coordinates.
+
+@param cube_coord The hexagonal coordinates of the hexagon.
+@param value The value to set.
+\end{DoxyVerb}
+ \Hypertarget{class_mapgen_1_1_hex_grid_ab99dc6a50baccb005126dc5b49b6d10b}\label{class_mapgen_1_1_hex_grid_ab99dc6a50baccb005126dc5b49b6d10b} 
+\index{Mapgen.HexGrid@{Mapgen.HexGrid}!set\_walls@{set\_walls}}
+\index{set\_walls@{set\_walls}!Mapgen.HexGrid@{Mapgen.HexGrid}}
+\doxysubsubsection{\texorpdfstring{set\_walls()}{set\_walls()}}
+{\footnotesize\ttfamily Mapgen.\+Hex\+Grid.\+set\+\_\+walls (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{wall\+\_\+positions }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Sets walls on the grid.
+
+@complexity O(n) - Cycle for wall in wall_positions have O(n)
+
+@param wall_positions A list of wall positions.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Mapgen.\+py\end{DoxyCompactItemize}

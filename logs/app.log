@@ -1,0 +1,2252 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-418-706
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:39] "GET /socket.io/?EIO=4&transport=polling&t=OukWp_7 HTTP/1.1" 200 -
+INFO:Catcher:Client connected: rDqDJ6zMNx1c6UnkAAAB
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:39] "POST /socket.io/?EIO=4&transport=polling&t=OukWqRM&sid=PqEOxJ2WiKUg_5f8AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:39] "GET /socket.io/?EIO=4&transport=polling&t=OukWqRN&sid=PqEOxJ2WiKUg_5f8AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:39] "POST /socket.io/?EIO=4&transport=polling&t=OukWqRQ&sid=PqEOxJ2WiKUg_5f8AAAA HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:39] "GET /socket.io/?EIO=4&transport=polling&t=OukWqRR&sid=PqEOxJ2WiKUg_5f8AAAA HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:42] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client disconnected: rDqDJ6zMNx1c6UnkAAAB
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:43] "GET /socket.io/?EIO=4&transport=websocket&sid=PqEOxJ2WiKUg_5f8AAAA HTTP/1.1" 200 -
+INFO:Catcher:Handling wait room request
+ERROR:Catcher:No player name provided during registration
+INFO:Catcher:Meximilian joined the game
+DEBUG:Catcher:Current players: ['AI', 'Meximilian']
+INFO:Catcher:Starting game...
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "POST /wait_room HTTP/1.1" 200 -
+INFO:Catcher:Rendering game page
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "GET /game?name=Meximilian HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "[36mGET /static/requests.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "[36mGET /static/GUI.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "[36mGET /static/popups.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "[36mGET /static/GUI_script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "GET /socket.io/?EIO=4&transport=polling&t=OukWtDJ HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client connected: MQmD901mK-ZwnDzOAAAD
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "POST /socket.io/?EIO=4&transport=polling&t=OukWtDM&sid=ofW288Wi1TkjCrN9AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "GET /socket.io/?EIO=4&transport=polling&t=OukWtDN&sid=ofW288Wi1TkjCrN9AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:50] "GET /socket.io/?EIO=4&transport=polling&t=OukWtDb&sid=ofW288Wi1TkjCrN9AAAC HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:52] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:54] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:54] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:56] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:57] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:57] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:58] "POST /turn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:58] "[35m[1mGET /send_grid HTTP/1.1[0m" 500 -
+INFO:Catcher:Player Meximilian chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:59] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:59] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:15:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:00] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:01] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:01] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:02] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:02] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:04] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:04] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:05] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:05] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:06] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:07] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:09] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:09] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:09] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #008000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:11] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:12] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:13] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:13] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:14] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:14] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:15] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:15] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:15] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:16] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:16] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:17] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:17] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:17] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:18] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:20] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:20] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:20] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #00FF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:21] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:21] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:22] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:22] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:22] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:23] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:24] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:24] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:24] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:26] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:26] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:26] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:27] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:27] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:27] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:29] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:29] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:29] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:31] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:31] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:31] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:32] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:32] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:32] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:33] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:33] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:33] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:35] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:35] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:35] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:37] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:37] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:37] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:38] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:38] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:38] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #008000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:39] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:39] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:39] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:40] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:40] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:41] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FF0000
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:43] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:43] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:43] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:44] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:44] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:44] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:45] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:45] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:46] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:46] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:46] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:47] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:48] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:48] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:49] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:49] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:49] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:50] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:51] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:52] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:52] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:53] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:54] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:55] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:56] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:56] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:57] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:57] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:57] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:58] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Meximilian chose color #008000
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Game over. Winner: Meximilian
+INFO:Catcher:Game over
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Game over. Winner: Meximilian
+INFO:Catcher:Game over
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:59] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:16:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:17:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:17:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:17:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:17:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 20:17:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client connected: t4X5xKISIknRo92dAAAA
+INFO:Catcher:Client disconnected: t4X5xKISIknRo92dAAAA
+INFO:Catcher:Client connected: nFAcKDrHiIazX32BAAAB
+INFO:Catcher:Client disconnected: nFAcKDrHiIazX32BAAAB
+INFO:Catcher:Client connected: 6YRXNGdWq4hUR0aTAAAC
+INFO:Catcher:Client disconnected: 6YRXNGdWq4hUR0aTAAAC
+INFO:Catcher:Client connected: jsRQCvLjkEDODj3SAAAE
+INFO:Catcher:Client disconnected: jsRQCvLjkEDODj3SAAAE
+INFO:Catcher:Client connected: J0h8P5xEIjzfnUPqAAAG
+INFO:Catcher:Client disconnected: J0h8P5xEIjzfnUPqAAAG
+INFO:Catcher:Client connected: MUzvJwSSP4Vq1bsHAAAH
+INFO:Catcher:Client disconnected: MUzvJwSSP4Vq1bsHAAAH
+INFO:Catcher:Client connected: VIxdWLJ60Gwb3KmVAAAI
+INFO:Catcher:Client disconnected: VIxdWLJ60Gwb3KmVAAAI
+INFO:Catcher:Client connected: ayippMj97fGQb6-kAAAA
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Client disconnected: ayippMj97fGQb6-kAAAA
+INFO:Catcher:Client connected: RVe5cpitlqs1reZIAAAB
+INFO:Catcher:Rendering game page
+INFO:Catcher:Client disconnected: RVe5cpitlqs1reZIAAAB
+INFO:Catcher:Client connected: qN-Ow6_OvRNs1OyZAAAC
+INFO:Catcher:Client disconnected: qN-Ow6_OvRNs1OyZAAAC
+INFO:Catcher:Client connected: xT8NyBMc7DTtf8b9AAAE
+INFO:Catcher:Client disconnected: xT8NyBMc7DTtf8b9AAAE
+INFO:Catcher:Client connected: WtUgvXARd9dMNDgXAAAG
+INFO:Catcher:Client disconnected: WtUgvXARd9dMNDgXAAAG
+INFO:Catcher:Client connected: OgczAH0vvLtXcM9dAAAH
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Client disconnected: OgczAH0vvLtXcM9dAAAH
+INFO:Catcher:Client connected: Aw0QZl-swl655SFjAAAI
+INFO:Catcher:Client disconnected: Aw0QZl-swl655SFjAAAI
+INFO:Catcher:Client connected: KOhklNvF7ksKsplvAAAA
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Client disconnected: KOhklNvF7ksKsplvAAAA
+INFO:Catcher:Client connected: c5yf0XUa8nHxRxM7AAAB
+INFO:Catcher:Rendering game page
+INFO:Catcher:Client disconnected: c5yf0XUa8nHxRxM7AAAB
+INFO:Catcher:Client connected: IogQlgU8984mrlovAAAC
+INFO:Catcher:Client disconnected: IogQlgU8984mrlovAAAC
+INFO:Catcher:Client connected: Nc7E7ysaGtrDbqRDAAAE
+INFO:Catcher:Client disconnected: Nc7E7ysaGtrDbqRDAAAE
+INFO:Catcher:Client connected: ya8IXv1KosP2p-n0AAAG
+INFO:Catcher:Client disconnected: ya8IXv1KosP2p-n0AAAG
+INFO:Catcher:Client connected: _qi0Ek3XymepAyowAAAH
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Client disconnected: _qi0Ek3XymepAyowAAAH
+INFO:Catcher:Client connected: XF4l71aZ0vBao6HjAAAI
+INFO:Catcher:Client disconnected: XF4l71aZ0vBao6HjAAAI
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Received message: dummy_message
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+WARNING:Catcher:Player TestPlayer not found in waiting room
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+WARNING:Catcher:Player TestPlayer not found in waiting room
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Player TestPlayer removed from waiting room
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Player TestPlayer registered with ID mocked_uuid
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Player TestPlayer registered with ID mocked_uuid
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Player TestPlayer registered with ID mocked_uuid
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2208898808896'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2648943492352'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2347193138432'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1757941136832'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1943892458560'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2722465316240'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2056329100592'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2038965665216'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1250437168336'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1621851634368'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='3165375022128'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2374584681328'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2850595635888'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2117690688128'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1466053133120'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1333580317696'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2169781469968'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2560466092912'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1964726862416'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2063164998368'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2063165302928'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1472870712080'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='1472871016640'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2354991629120'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2354991933680'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2851471786672'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2851472091232'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2819149562544'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2819149867104'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2772869793536'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2772870057984'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2110043407888'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2110043704912'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2068923041392'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2068923338512'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2230943237840'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2230943534960'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2314781689456'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2314781986480'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2174423172816'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2174423453552'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1829259855616'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='1829260152736'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1289027634896'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='1289027948400'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1911015540528'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='1911015549072'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1204729104032'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='1204729112816'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1287378191936'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='1287378201200'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2324779615904'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2324779627088'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2436183475824'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2436183487008'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2187219420640'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2187219431824'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2417458939600'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2417458950784'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2473832883696'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2473833386272'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2121380275312'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2121380745504'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2673420805136'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2673421275328'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2519815497296'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2519815967488'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2788173686928'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2788174157120'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2694246181200'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2694246651392'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2566890203376'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2566890673568'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2531226888480'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2531227358672'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-418-706
+INFO:Catcher:Rendering documentation page
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:28:17] "GET /docs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:28:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:Catcher:Rendering documentation page
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:11] "GET /docs HTTP/1.1" 200 -
+INFO:Catcher:Rendering menu page
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:41] "GET /static/Menu_script.js HTTP/1.1" 200 -
+INFO:Catcher:Handling wait room request
+ERROR:Catcher:No player name provided during registration
+INFO:Catcher:Abasos joined the game
+DEBUG:Catcher:Current players: ['AI', 'Abasos']
+INFO:Catcher:Starting game...
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "POST /wait_room HTTP/1.1" 200 -
+INFO:Catcher:Rendering game page
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /game?name=Abasos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /static/requests.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /static/GUI_script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /static/GUI.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /static/popups.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /socket.io/?EIO=4&transport=polling&t=OuuRnaT HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client connected: 7CbcswFPNB07neZZAAAB
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "POST /socket.io/?EIO=4&transport=polling&t=OuuRnaa&sid=qoPqLamfEjqsWszIAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /socket.io/?EIO=4&transport=polling&t=OuuRnab&sid=qoPqLamfEjqsWszIAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:48] "GET /socket.io/?EIO=4&transport=polling&t=OuuRnak&sid=qoPqLamfEjqsWszIAAAA HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:52] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:52] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:53] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Sent game grid to client
+DEBUG:Catcher:Game over check: False
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:55] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:56] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:57] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:58] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:29:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:00] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:02] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:02] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:03] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:03] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:03] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #00FF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:05] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:06] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:06] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:07] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:07] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:07] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Sent game grid to client
+DEBUG:Catcher:Game over check: False
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:08] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:09] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:09] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:09] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:10] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #008000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:11] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:12] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:12] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:12] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:13] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:13] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:15] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:15] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:15] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:17] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:17] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:17] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:18] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:19] "POST /turn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:19] "[35m[1mGET /send_grid HTTP/1.1[0m" 500 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:20] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:21] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:22] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:22] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:24] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:24] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:25] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:26] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:27] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+DEBUG:Catcher:Game over check: False
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:27] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:27] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:29] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:30] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:30] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:30] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:31] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:32] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:32] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:33] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:34] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:34] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:35] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:36] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:37] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:37] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:38] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:39] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:39] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:40] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:42] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:42] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:42] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:43] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:44] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:44] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:45] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:45] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:45] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:48] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:48] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:48] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:52] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:52] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #00FF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:54] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:55] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:56] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:57] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:57] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:58] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:59] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:30:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:03] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:04] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:05] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:06] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:06] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:07] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:08] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:09] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:09] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:09] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:10] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:11] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:11] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:12] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:12] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:12] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:13] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:13] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:14] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:15] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:15] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player Abasos chose color #008000
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Game over. Winner: Abasos
+INFO:Catcher:Game over
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:15] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Game over. Winner: Abasos
+INFO:Catcher:Game over
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:16] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:16] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:17] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:18] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:20] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:21] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:24] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:26] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:27] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:29] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:30] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:32] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:33] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client disconnected: 7CbcswFPNB07neZZAAAB
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 18:31:34] "GET /socket.io/?EIO=4&transport=websocket&sid=qoPqLamfEjqsWszIAAAA HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\1\\Desktop\\девопс\\Server\\BD__init.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-418-706
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2316729081888'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2316729721728'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2241971249856'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2241971889696'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2241972208592'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2240194641152'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='1912315258160'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='1912315744736'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2010028923472'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2010029563312'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color <MagicMock name='Player1.make_turn()' id='2709381847488'>
+INFO:Catcher:Rendering documentation page
+INFO:Catcher:Game over. Winner: <MagicMock name='mock.name' id='2709382487328'>
+INFO:Catcher:Rendering game page
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Rendering menu page
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client

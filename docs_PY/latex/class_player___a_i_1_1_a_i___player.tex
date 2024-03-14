@@ -1,0 +1,231 @@
+\doxysection{Player\+\_\+\+AI.\+AI\+\_\+\+Player Class Reference}
+\hypertarget{class_player___a_i_1_1_a_i___player}{}\label{class_player___a_i_1_1_a_i___player}\index{Player\_AI.AI\_Player@{Player\_AI.AI\_Player}}
+Inheritance diagram for Player\+\_\+\+AI.\+AI\+\_\+\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player___a_i_1_1_a_i___player}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_player___a_i_1_1_a_i___player_adfe9f7ca1a68cfefa1bcaad3c0e1d54c}{calc\+\_\+flat\+\_\+score}} (self, grid\+\_\+json, Lcells, color)
+\item 
+\mbox{\hyperlink{class_player___a_i_1_1_a_i___player_a8c3095b185a990859ca5e1ba469eabdc}{distance}} (point1, point2)
+\item 
+\mbox{\hyperlink{class_player___a_i_1_1_a_i___player_a9f3ddc3273b24798ae06b8b3f4ac5542}{make\+\_\+turn}} (self, grid\+\_\+json)
+\item 
+\mbox{\hyperlink{class_player___a_i_1_1_a_i___player_a0ab2ebb8f72665a7b0d289708a68300e}{alphabeta}} (board, depth, alpha, beta, maximizing\+\_\+player, Lcells, Lmove=None)
+\item 
+\mbox{\hyperlink{class_player___a_i_1_1_a_i___player_afe4194f87677748973c76d7949a839ad}{ai\+\_\+choose\+\_\+color}} (self, color, grid\+\_\+json, cells)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_players_1_1_player}{Players.\+Player}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_players_1_1_player_a854a145862e614e9291280b75e1d3416}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, name, color, initial\+\_\+position, grid\+\_\+json)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_ae61af707a8aa14bcd21f40254040bf5e}{check\+\_\+possible\+\_\+moves}} (self, grid\+\_\+json, cells)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_a226a05b25654f556697960ccbd62a46b}{choose\+\_\+color}} (self, color, grid\+\_\+json)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_ab3c725666a2ba9a9fe5ef176f5fe36be}{get\+\_\+neighbors}} (self, grid, cube\+\_\+coord)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_a3a8b84ceb49a951fbded37fa44d5fa5e}{cube\+\_\+to\+\_\+offset}} (self, cube\+\_\+coord)
+\item 
+\mbox{\hyperlink{class_players_1_1_player_a65fbb5559471112eddda55ef8a61964e}{offset\+\_\+to\+\_\+cube}} (self, offset\+\_\+coord)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_abe289aac21a3d66363f51fe846d54775}\label{class_player___a_i_1_1_a_i___player_abe289aac21a3d66363f51fe846d54775} 
+{\bfseries possible\+\_\+cells} = set()
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a877a9d00bd16c5fb0090af6e926a3ee3}\label{class_player___a_i_1_1_a_i___player_a877a9d00bd16c5fb0090af6e926a3ee3} 
+str {\bfseries possible\+\_\+color} = "{}"{}
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a92edb3dec49232e16f81b6dfa2f224fb}\label{class_player___a_i_1_1_a_i___player_a92edb3dec49232e16f81b6dfa2f224fb} 
+bool {\bfseries is\+\_\+\+AI} = True
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_abc61c75da1a5787964425b1dac9da1c5}\label{class_player___a_i_1_1_a_i___player_abc61c75da1a5787964425b1dac9da1c5} 
+int {\bfseries W1} = 100
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_afe2ac1fe46f57e2f1a7a0451877099ad}\label{class_player___a_i_1_1_a_i___player_afe2ac1fe46f57e2f1a7a0451877099ad} 
+int {\bfseries w1} = 1 / (len(grid\+\_\+json)\texorpdfstring{$\ast$}{*}len(grid\+\_\+json\mbox{[}0\mbox{]})) \texorpdfstring{$\ast$}{*} W1
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_ad46831ea9a946487878b82937653dc6c}\label{class_player___a_i_1_1_a_i___player_ad46831ea9a946487878b82937653dc6c} 
+{\bfseries Occupied} = len(Lcells)
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a04db7b4bffa0ff6a0ea39b391988b722}\label{class_player___a_i_1_1_a_i___player_a04db7b4bffa0ff6a0ea39b391988b722} 
+float {\bfseries W2} = -\/0.\+2
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_ac57fb0107b588f202788abb389090deb}\label{class_player___a_i_1_1_a_i___player_ac57fb0107b588f202788abb389090deb} 
+tuple {\bfseries w2\+\_\+xy} = (len(grid\+\_\+json)/2 , len(grid\+\_\+json\mbox{[}0\mbox{]})/2)
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_aa7e56ce74d2f0ff4b18bd5245a482249}\label{class_player___a_i_1_1_a_i___player_aa7e56ce74d2f0ff4b18bd5245a482249} 
+{\bfseries nearest\+\_\+coordinate} = min(Lcells, key=lambda point\+: \mbox{\hyperlink{class_player___a_i_1_1_a_i___player_a8c3095b185a990859ca5e1ba469eabdc}{distance}}(w2\+\_\+xy, point))
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a355d40903f6aae2d683bd76fee82ef45}\label{class_player___a_i_1_1_a_i___player_a355d40903f6aae2d683bd76fee82ef45} 
+{\bfseries Key\+Areas\+Control\+Bonus} = \mbox{\hyperlink{class_player___a_i_1_1_a_i___player_a8c3095b185a990859ca5e1ba469eabdc}{distance}}(w2\+\_\+xy, nearest\+\_\+coordinate)
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_aa34ff6d2f2673ee9643dda54ad6d70e8}\label{class_player___a_i_1_1_a_i___player_aa34ff6d2f2673ee9643dda54ad6d70e8} 
+int {\bfseries W3} = 1
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a994645d5a18be164ccb64351576aa97d}\label{class_player___a_i_1_1_a_i___player_a994645d5a18be164ccb64351576aa97d} 
+int {\bfseries Largest\+Chain} = 0
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a506b11e853e223764adf4e16310c33bd}\label{class_player___a_i_1_1_a_i___player_a506b11e853e223764adf4e16310c33bd} 
+{\bfseries cells}
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a7963d8aecc501b9788faf90266f48a39}\label{class_player___a_i_1_1_a_i___player_a7963d8aecc501b9788faf90266f48a39} 
+{\bfseries Largest\+Chain} = max(Largest\+Chain, len(cells))
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_aa62edc55dd4971ffd63ffd389934a72b}\label{class_player___a_i_1_1_a_i___player_aa62edc55dd4971ffd63ffd389934a72b} 
+tuple {\bfseries Score} = (w1\texorpdfstring{$\ast$}{*}Occupied)+(W2\texorpdfstring{$\ast$}{*}Key\+Areas\+Control\+Bonus)+(W3\texorpdfstring{$\ast$}{*}Largest\+Chain)
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a48b15fe9ff7315e2e77248ee2ad5756d}\label{class_player___a_i_1_1_a_i___player_a48b15fe9ff7315e2e77248ee2ad5756d} 
+{\bfseries colors} = list(COLOR\+\_\+\+MAP.\+values())
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_ac56dd41774333241ee92feff50764907}\label{class_player___a_i_1_1_a_i___player_ac56dd41774333241ee92feff50764907} 
+{\bfseries board} = copy.\+deepcopy(grid\+\_\+json)
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a13cbdd125b6cecbce33e066881b08b17}\label{class_player___a_i_1_1_a_i___player_a13cbdd125b6cecbce33e066881b08b17} 
+int {\bfseries depth} = 2
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a2ac11f52e7c75a7dbd9741ca2e1a3aaa}\label{class_player___a_i_1_1_a_i___player_a2ac11f52e7c75a7dbd9741ca2e1a3aaa} 
+{\bfseries Cells} = copy.\+copy(self.\+cells)
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a85c1ee4662469ef1374894c672236a89}\label{class_player___a_i_1_1_a_i___player_a85c1ee4662469ef1374894c672236a89} 
+{\bfseries best\+\_\+move}
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_af8588452878a466738e42164b7c4d98a}\label{class_player___a_i_1_1_a_i___player_af8588452878a466738e42164b7c4d98a} 
+{\bfseries best\+\_\+score}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_player___a_i_1_1_a_i___player_a94fbab1a083ecb363275dbf35506699f}\label{class_player___a_i_1_1_a_i___player_a94fbab1a083ecb363275dbf35506699f} 
+{\bfseries \+\_\+}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_players_1_1_player}{Players.\+Player}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries name}
+\item 
+{\bfseries color}
+\item 
+{\bfseries position}
+\item 
+{\bfseries cells}
+\item 
+{\bfseries possible\+\_\+moves}
+\item 
+{\bfseries Is\+Turn}
+\item 
+{\bfseries is\+\_\+\+AI}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Initializes an AI Player object.
+This class represents an AI player in the game, inheriting from the Player class.
+
+The AI player is capable of making decisions based on certain algorithms.
+
+@note Inherits attributes and methods from the Player class.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_player___a_i_1_1_a_i___player_afe4194f87677748973c76d7949a839ad}\label{class_player___a_i_1_1_a_i___player_afe4194f87677748973c76d7949a839ad} 
+\index{Player\_AI.AI\_Player@{Player\_AI.AI\_Player}!ai\_choose\_color@{ai\_choose\_color}}
+\index{ai\_choose\_color@{ai\_choose\_color}!Player\_AI.AI\_Player@{Player\_AI.AI\_Player}}
+\doxysubsubsection{\texorpdfstring{ai\_choose\_color()}{ai\_choose\_color()}}
+{\footnotesize\ttfamily Player\+\_\+\+AI.\+AI\+\_\+\+Player.\+ai\+\_\+choose\+\_\+color (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{color,  }\item[{}]{grid\+\_\+json,  }\item[{}]{cells }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Simulates color selection for AI player to calculate the position.
+
+@complexity O(n+ထ) - Cycle for j in Lcells have O(n). Cycle while True have O(ထ) in worst scenario.
+
+This method simulates the selection of color for the AI player to calculate the position and determine the potential moves.
+
+@param color The color to be selected.
+@param grid_json The JSON representation of the game grid.
+@param cells The cells currently occupied by the AI player.
+@return A tuple containing the updated set of cells after the color selection and the updated game grid JSON.
+\end{DoxyVerb}
+ \Hypertarget{class_player___a_i_1_1_a_i___player_a0ab2ebb8f72665a7b0d289708a68300e}\label{class_player___a_i_1_1_a_i___player_a0ab2ebb8f72665a7b0d289708a68300e} 
+\index{Player\_AI.AI\_Player@{Player\_AI.AI\_Player}!alphabeta@{alphabeta}}
+\index{alphabeta@{alphabeta}!Player\_AI.AI\_Player@{Player\_AI.AI\_Player}}
+\doxysubsubsection{\texorpdfstring{alphabeta()}{alphabeta()}}
+{\footnotesize\ttfamily Player\+\_\+\+AI.\+AI\+\_\+\+Player.\+alphabeta (\begin{DoxyParamCaption}\item[{}]{board,  }\item[{}]{depth,  }\item[{}]{alpha,  }\item[{}]{beta,  }\item[{}]{maximizing\+\_\+player,  }\item[{}]{Lcells,  }\item[{}]{Lmove = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Implements the Alpha-Beta Pruning algorithm for decision making.
+
+@complexity O(n1^n2), where n1 is the average number of possible moves in each position, and n2 is the depth of the search tree
+
+This function implements the Alpha-Beta Pruning algorithm to determine the best move for the AI player.
+It evaluates the possible moves up to a certain depth and returns the best move along with its score.
+
+@param board The current state of the game board represented as a JSON.
+@param depth The depth of the search tree to explore.
+@param alpha The alpha value for alpha-beta pruning.
+@param beta The beta value for alpha-beta pruning.
+@param maximizing_player A boolean indicating whether the current player is maximizing.
+@param Lcells The cells currently occupied by the AI player.
+@param Lmove The last move made by the AI player.
+@return A tuple containing the best move and its corresponding score.
+\end{DoxyVerb}
+ \Hypertarget{class_player___a_i_1_1_a_i___player_adfe9f7ca1a68cfefa1bcaad3c0e1d54c}\label{class_player___a_i_1_1_a_i___player_adfe9f7ca1a68cfefa1bcaad3c0e1d54c} 
+\index{Player\_AI.AI\_Player@{Player\_AI.AI\_Player}!calc\_flat\_score@{calc\_flat\_score}}
+\index{calc\_flat\_score@{calc\_flat\_score}!Player\_AI.AI\_Player@{Player\_AI.AI\_Player}}
+\doxysubsubsection{\texorpdfstring{calc\_flat\_score()}{calc\_flat\_score()}}
+{\footnotesize\ttfamily Player\+\_\+\+AI.\+AI\+\_\+\+Player.\+calc\+\_\+flat\+\_\+score (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{grid\+\_\+json,  }\item[{}]{Lcells,  }\item[{}]{color }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Calculates the flat score for the AI player.
+
+@complexity O(1) - Simple calculation + output
+
+This method calculates the flat score for the AI player based on various factors such as occupied cells,
+control of key areas, and size of the largest chain.
+
+@param grid_json The JSON representation of the game grid.
+@param Lcells The cells currently occupied by the player.
+@param color The color chosen by the AI player.
+@return The calculated flat score for the AI player.
+\end{DoxyVerb}
+ \Hypertarget{class_player___a_i_1_1_a_i___player_a8c3095b185a990859ca5e1ba469eabdc}\label{class_player___a_i_1_1_a_i___player_a8c3095b185a990859ca5e1ba469eabdc} 
+\index{Player\_AI.AI\_Player@{Player\_AI.AI\_Player}!distance@{distance}}
+\index{distance@{distance}!Player\_AI.AI\_Player@{Player\_AI.AI\_Player}}
+\doxysubsubsection{\texorpdfstring{distance()}{distance()}}
+{\footnotesize\ttfamily Player\+\_\+\+AI.\+AI\+\_\+\+Player.\+distance (\begin{DoxyParamCaption}\item[{}]{point1,  }\item[{}]{point2 }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Calculates the Euclidean distance between two points.
+
+@complexity O(1) - Simple calculations
+
+This function calculates the Euclidean distance between two points in a two-dimensional space.
+
+@param point1 The coordinates of the first point as a tuple (x, y).
+@param point2 The coordinates of the second point as a tuple (x, y).
+@return The Euclidean distance between the two points.
+\end{DoxyVerb}
+ \Hypertarget{class_player___a_i_1_1_a_i___player_a9f3ddc3273b24798ae06b8b3f4ac5542}\label{class_player___a_i_1_1_a_i___player_a9f3ddc3273b24798ae06b8b3f4ac5542} 
+\index{Player\_AI.AI\_Player@{Player\_AI.AI\_Player}!make\_turn@{make\_turn}}
+\index{make\_turn@{make\_turn}!Player\_AI.AI\_Player@{Player\_AI.AI\_Player}}
+\doxysubsubsection{\texorpdfstring{make\_turn()}{make\_turn()}}
+{\footnotesize\ttfamily Player\+\_\+\+AI.\+AI\+\_\+\+Player.\+make\+\_\+turn (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{grid\+\_\+json }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Makes a calculation of turn for the AI player.
+This method implements the Alpha-Beta Pruning algorithm to determine the best move for the AI player.
+
+@complexity O(n) - Cycle for color in non_play_colors have complexity O(n)
+
+@param grid_json The JSON representation of the game grid.
+@return The best move determined by the AI player.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Player\+\_\+\+AI.\+py\end{DoxyCompactItemize}

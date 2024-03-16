@@ -1,0 +1,16 @@
+.\bd__init.py
+.\Catcher.py
+.\Mapcolors.py
+.\Mapgen.py
+.\Player_AI.py
+.\Players.py
+.\run_test_from_DB.py
+.\test_unit.py
+.\templates\docs.html
+.\templates\GUI.html
+.\templates\Menu.html
+.\static\GUI_script.js
+.\static\Menu_script.js
+.\static\popups.js
+.\static\requests.js
+.\static\GUI.css

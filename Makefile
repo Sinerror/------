@@ -4,6 +4,7 @@ TEMPLATES_DIR := $(PYTHON_SCRIPTS_DIR)\\templates
 MADE_APP_DIR := madeapp\\Server
 MADE_APP_STATIC_DIR := $(MADE_APP_DIR)\\static
 MADE_APP_TEMPLATES_DIR := $(MADE_APP_DIR)\\templates
+PRIVATE_KEY := $(PYTHON_SCRIPTS_DIR)/app.key
 
 # Копирование HTML файлов
 copy_html:
@@ -26,14 +27,18 @@ python_compile:
 
 sign:
 	xcopy $(PYTHON_SCRIPTS_DIR)\\file_list.txt $(MADE_APP_DIR)\\ /y
-	xcopy $(PYTHON_SCRIPTS_DIR)\\sig.bat $(MADE_APP_DIR)\\ /y
 	if not exist "$(MADE_APP_DIR)\\signatures" mkdir $(MADE_APP_DIR)\\signatures
-	echo $(PYTHON_SCRIPTS_DIR)\\app.key || $(MADE_APP_DIR)\\sig.bat
-	del $(MADE_APP_DIR)\\sig.bat
-	openssl pkey -pubout -in $(PYTHON_SCRIPTS_DIR)\\app.key -out $(MADE_APP_DIR)\\app.pub
+
+	$(foreach filename,$(filter-out %/,$(wildcard ./madeapp/Server/*)), \
+		openssl dgst -sha256 -sign "./$(PRIVATE_KEY)" -out "./madeapp/Server/signatures/$(notdir $(filename)).signature" "$(filename)"; \
+		echo "Signing file: $(filename)"; \
+	)
+	
+
+	openssl pkey -pubout -in $(PRIVATE_KEY) -out $(MADE_APP_DIR)\\app.pub
 	openssl genpkey -algorithm RSA -out $(MADE_APP_DIR)\\user.key
 	openssl pkey -pubout -in $(MADE_APP_DIR)\\user.key -out $(MADE_APP_DIR)\\user.pub
-	openssl dgst -sha256 -sign $(PYTHON_SCRIPTS_DIR)\\app.key -out $(MADE_APP_DIR)\\user.sig $(MADE_APP_DIR)\\user.key
+	openssl dgst -sha256 -sign $(PRIVATE_KEY) -out $(MADE_APP_DIR)\\user.sig $(MADE_APP_DIR)\\user.key
 
 # Основной целью по умолчанию является сборка всех файлов
 all: python_compile js_bundle copy_html copy_css sign

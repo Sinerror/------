@@ -2250,3 +2250,1414 @@ DEBUG:Catcher:Game over check: True
 INFO:Catcher:Rendering menu page
 INFO:Catcher:Sending turn information
 DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-418-706
+INFO:Catcher:Rendering menu page
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:40] "GET /static/Menu_script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:Catcher:Handling wait room request
+ERROR:Catcher:No player name provided during registration
+INFO:Catcher:ןמכנכןגא joined the game
+DEBUG:Catcher:Current players: ['AI', 'ןמכנכןגא']
+INFO:Catcher:Starting game...
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "POST /wait_room HTTP/1.1" 200 -
+INFO:Catcher:Rendering game page
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /game?name=ןמכנכןגא HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /static/GUI.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /static/requests.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /static/popups.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /static/GUI_script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /socket.io/?EIO=4&transport=polling&t=OuzKR6q HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client connected: P-mwA7foPCeCdKTOAAAB
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "POST /socket.io/?EIO=4&transport=polling&t=OuzKR6x&sid=IqOUuR4oFV3EQvghAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /socket.io/?EIO=4&transport=polling&t=OuzKR6y&sid=IqOUuR4oFV3EQvghAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:47] "GET /socket.io/?EIO=4&transport=polling&t=OuzKR77&sid=IqOUuR4oFV3EQvghAAAA HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:49] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:52] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:53] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:53] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:56] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:59] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:15:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:01] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:01] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:01] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:02] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:03] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:03] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:04] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:04] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:05] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:05] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:06] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:07] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:07] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:08] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:10] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:11] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:11] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:12] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:12] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:13] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:14] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:16] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:16] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:16] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:17] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:17] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:17] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:18] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:18] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:19] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:20] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:20] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:20] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:21] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:22] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:22] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:23] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:24] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:24] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:25] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:26] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:26] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:26] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:27] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:28] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:28] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:29] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:29] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:29] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:30] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:30] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:31] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:32] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:32] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:32] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:33] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:33] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:34] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:35] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:36] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:36] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:37] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:38] "POST /turn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:38] "[35m[1mGET /send_grid HTTP/1.1[0m" 500 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:38] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:40] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:41] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:43] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:43] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:43] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:44] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:45] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:45] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:46] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:47] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:49] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:49] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:49] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:50] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:51] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:52] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:52] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:52] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:53] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:54] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:56] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:57] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:57] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:58] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:59] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:59] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:16:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:00] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:01] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:01] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:01] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:02] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:02] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:03] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:04] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:05] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:06] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:07] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:09] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:09] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player ןמכנכןגא chose color #0000FF
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Game over. Winner: ןמכנכןגא
+INFO:Catcher:Game over
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Game over. Winner: ןמכנכןגא
+INFO:Catcher:Game over
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:10] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:13] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:17] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:18] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:19] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:20] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:22] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:25] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:26] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:29] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:30] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:32] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:33] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:35] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:36] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:38] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:39] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:42] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:44] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:45] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:48] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:57] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:17:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:03] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:06] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:09] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:12] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client disconnected: P-mwA7foPCeCdKTOAAAB
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:18:15] "GET /socket.io/?EIO=4&transport=websocket&sid=IqOUuR4oFV3EQvghAAAA HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 125-418-706
+INFO:Catcher:Rendering menu page
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:36] "GET /static/Menu_script.js HTTP/1.1" 200 -
+INFO:Catcher:Rendering menu page
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:37] "[36mGET /static/Menu_script.js HTTP/1.1[0m" 304 -
+INFO:Catcher:Handling wait room request
+ERROR:Catcher:No player name provided during registration
+INFO:Catcher:אןûגןגא joined the game
+DEBUG:Catcher:Current players: ['AI', 'אןûגןגא']
+INFO:Catcher:Starting game...
+INFO:Catcher:HexGrid Object was created
+INFO:Catcher:Added walls to HexGrid Object
+INFO:Catcher:First turn was chosen
+INFO:Catcher:Game started
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "POST /wait_room HTTP/1.1" 200 -
+INFO:Catcher:Rendering game page
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /game?name=אןûגןגא HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /static/GUI.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /static/requests.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /static/popups.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /static/GUI_script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /socket.io/?EIO=4&transport=polling&t=OuzL_pr HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client connected: QGf46B2QGD91tfI_AAAB
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "POST /socket.io/?EIO=4&transport=polling&t=OuzL_p_&sid=Ah-IjRzQ-psq70U_AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /socket.io/?EIO=4&transport=polling&t=OuzL_q1&sid=Ah-IjRzQ-psq70U_AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:40] "GET /socket.io/?EIO=4&transport=polling&t=OuzL_qD&sid=Ah-IjRzQ-psq70U_AAAA HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:41] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:42] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:42] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:43] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:43] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:43] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:44] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:44] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:44] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:45] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:45] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:45] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:45] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:46] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:46] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:46] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:49] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:49] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:49] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:50] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:50] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:51] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:52] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:52] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:52] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:53] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:55] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:56] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:58] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:58] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:22:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:00] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:00] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:01] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:02] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:04] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:05] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:07] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:08] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:09] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:10] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:11] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:13] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:13] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:13] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:16] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:16] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:16] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:17] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:18] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:18] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:19] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:20] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:21] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:21] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:22] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:23] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:23] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:25] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:25] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:25] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:26] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:26] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:26] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:28] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:29] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:31] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:31] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:31] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:32] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:34] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:35] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:35] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:35] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:36] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:37] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:37] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:Catcher:AI chose color #0000FF
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:38] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:38] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:38] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:40] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:40] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:40] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:41] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:42] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:42] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:42] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:42] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:43] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:44] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:44] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:44] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:45] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #FFC0CB
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:45] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:46] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:AI chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:46] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:46] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:47] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:47] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFA500
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:48] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:48] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:49] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:49] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:49] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:50] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:50] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #00FF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:51] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:51] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:52] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:52] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:52] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #008000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:53] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:53] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FF0000
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:54] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:54] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #0000FF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:55] "POST /turn HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:55] "GET /send_grid HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:55] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFFF00
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:56] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:56] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #ADD8E6
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: False
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:58] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:58] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Player אןûגןגא chose color #FFC0CB
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Game over. Winner: אןûגןגא
+INFO:Catcher:Game over
+INFO:Catcher:AI chose color #FFFFFF
+DEBUG:Catcher:Game over check: True
+INFO:Catcher:Game over. Winner: אןûגןגא
+INFO:Catcher:Game over
+INFO:Catcher:AI's turn
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:58] "POST /turn HTTP/1.1" 200 -
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:23:59] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:01] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:02] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:04] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:05] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:07] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:08] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:10] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:11] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:13] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:14] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:16] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:17] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Sending turn information
+DEBUG:Catcher:Sent game grid to client
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:19] "GET /send_grid HTTP/1.1" 200 -
+INFO:Catcher:Client disconnected: QGf46B2QGD91tfI_AAAB
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2024 17:24:19] "GET /socket.io/?EIO=4&transport=websocket&sid=Ah-IjRzQ-psq70U_AAAA HTTP/1.1" 200 -

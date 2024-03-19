@@ -1,31 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
 
-Running tests... 
-----------------------------------------------------------------------
- test_AI_turn (__main__.TestAppRoutes) ... OK (0.007000)s
- test_clearplayer (__main__.TestAppRoutes) ... OK (0.002000)s
- test_clearplayer_player_found (__main__.TestAppRoutes) ... OK (0.000000)s
- test_clearplayer_player_not_found (__main__.TestAppRoutes) ... OK (0.001000)s
- test_docs_route (__main__.TestAppRoutes) ... OK (0.003000)s
- test_game_over (__main__.TestAppRoutes) ... OK (0.001000)s
- test_game_route (__main__.TestAppRoutes) ... OK (0.004000)s
- test_gamestart (__main__.TestAppRoutes) ... OK (0.004000)s
- test_handle_message (__main__.TestAppRoutes) ... OK (0.001000)s
- test_is_game_over (__main__.TestAppRoutes) ... OK (0.001000)s
- test_menu_route (__main__.TestAppRoutes) ... OK (0.003000)s
- test_register (__main__.TestAppRoutes) ... OK (0.001000)s
- test_send_turn_info (__main__.TestAppRoutes) ... OK (0.001000)s
- test_sendgrid (__main__.TestAppRoutes) ... OK (0.001000)s
- test_waitroom_game_not_started (__main__.TestAppRoutes) ... OK (0.002000)s
- test_waitroom_game_started (__main__.TestAppRoutes) ... OK (0.028000)s
- test_calc_flat_score (__main__.TestAIPlayerMethods) ... OK (0.001001)s
- test_make_turn (__main__.TestAIPlayerMethods) ... OK (0.000999)s
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
 
-----------------------------------------------------------------------
-Ran 18 tests in 0:00:00
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
 
-OK
+        th {
+            background-color: #f2f2f2;
+        }
 
+        .ok {
+            color: green;
+        }
 
+        .failed {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Results</h1>
+
+    <h2>TestAppRoutes</h2>
+    <table>
+        <tr>
+            <th>Test Case</th>
+            <th>Status</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>test_AI_turn</td>
+            <td class="ok">OK</td>
+            <td>0.007000s</td>
+        </tr>
+        <tr>
+            <td>test_clearplayer</td>
+            <td class="ok">OK</td>
+            <td>0.002000s</td>
+        </tr>
+        <tr>
+            <td>test_clearplayer_player_found</td>
+            <td class="ok">OK</td>
+            <td>0.000000s</td>
+        </tr>
+        <tr>
+            <td>test_clearplayer_player_not_found</td>
+            <td class="ok">OK</td>
+            <td>0.001000s</td>
+        </tr>
+        <tr>
+            <td>test_docs_route</td>
+            <td class="ok">OK</td>
+            <td>0.003000s</td>
+        </tr>
+        <tr>
+            <td>test_game_over</td>
+            <td class="ok">OK</td>
+            <td>0.001000s</td>
+        </tr>
+        <tr>
+            <td>test_game_route</td>
+            <td class="ok">OK</td>
+            <td>0.004000s</td>
+        </tr>
+        <tr>
+            <td>test_gamestart</td>
+            <td class="ok">OK</td>
+            <td>0.004000s</td>
+        </tr>
+        <tr>
+            <td>test_handle_message</td>
+            <td class="ok">OK</td>
+            <td>0.001000s</td>
+        </tr>
+        <tr>
+            <td>test_is_game_over</td>
+            <td class="ok">OK</td>
+            <td>0.001000s</td>
+        </tr>
+        <tr>
+            <td>test_menu_route</td>
+            <td class="ok">OK</td>
+            <td>0.003000s</td>
+        </tr>
+        <tr>
+            <td>test_register</td>
+            <td class="ok">OK</td>
+            <td>0.001000s</td>
+        </tr>
+        <tr>
+            <td>test_send_turn_info</td>
+            <td class="ok">OK</td>
+            <td>0.001000s</td>
+        </tr>
+        <tr>
+            <td>test_sendgrid</td>
+            <td class="ok">OK</td>
+            <td>0.001000s</td>
+        </tr>
+        <tr>
+            <td>test_waitroom_game_not_started</td>
+            <td class="ok">OK</td>
+            <td>0.002000s</td>
+        </tr>
+        <tr>
+            <td>test_waitroom_game_started</td>
+            <td class="ok">OK</td>
+            <td>0.028000s</td>
+        </tr>
+    </table>
+
+    <h2>TestAIPlayerMethods</h2>
+    <table>
+        <tr>
+            <th>Test Case</th>
+            <th>Status</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>test_calc_flat_score</td>
+            <td class="ok">OK</td>
+            <td>0.001001s</td>
+        </tr>
+        <tr>
+            <td>test_make_turn</td>
+            <td class="ok">OK</td>
+            <td>0.000999s</td>
+        </tr>
+    </table>
+
+    <p>Total tests run: 18</p>
+    <p>All tests passed!</p>
+</body>
+</html>
 
 Generating HTML reports... 
 reports\TestResults___main__.TestAppRoutes_2024-03-13_20-13-50.html
